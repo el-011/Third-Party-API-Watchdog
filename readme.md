@@ -80,7 +80,7 @@ DATABASE_URL = "postgresql+asyncpg://username:password@localhost/database_name"
 ### 5. Run the Application
 
 ```bash
-uvicorn main:app --reload
+uvicorn app.main:app --reload
 ```
 
 Now visit http://127.0.0.1:8000/docs to interact with the API via Swagger UI.
