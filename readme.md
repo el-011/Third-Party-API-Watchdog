@@ -46,8 +46,8 @@ Without proactive monitoring and detailed insights into these dependencies, trou
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/third-party-api-watchdog.git
-cd third-party-api-watchdog
+git https://github.com/el-011/Third-Party-API-Watchdog
+cd Third-Party-API-Watchdog
 ```
 
 ### 2. Create & Activate a Virtual Environment
@@ -61,12 +61,6 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 ```bash
 pip install -r requirements.txt
-```
-
-If `requirements.txt` doesn't exist, use:
-
-```bash
-pip install fastapi uvicorn sqlalchemy asyncpg httpx pydantic
 ```
 
 ### 4. Set Up Database
